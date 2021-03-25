@@ -33,6 +33,7 @@ public class DemoApplication extends SpringBootServletInitializer {
 
 	@RequestMapping(value = "/")
 	public String hello() {
+		System.out.println("test1");
 		logger.info("This is info message {} {}", 10, 60);
 		logger.warn("This is warn message");
 		logger.error("This is error message");
